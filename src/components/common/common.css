@@ -1,0 +1,54 @@
+.navbar-brand-img {
+  max-width: 40%;
+  height: auto;
+}
+
+.main-navbar {
+  background-image: linear-gradient(lightgrey, white);
+  box-shadow: 0px 0px 10px 1px #222;
+}
+
+#main-footer {
+  background-color: #212529;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 11px;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1029;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+#main-footer > #designed-by > a {
+  color: white;
+}
+
+#main-footer > #designed-by {
+  font-size: 10px;
+  padding-right: 15px;
+}
+
+#main-footer > div > p {
+  margin-bottom: 0px;
+  color: gray;
+}
+
+#main-footer > #social-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#main-footer > #social-links > a {
+  padding: 2px 5px;
+  color: #4d7ea8;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}

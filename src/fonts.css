@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:700|Raleway:900&display=swap");
+
+.bold-header-font {
+  font-family: "Raleway", sans-serif;
+  font-size: calc(1.7rem + 3.3vw);
+  color: #444;
+}
+
+.bold-header-font-white {
+  font-family: "Raleway", sans-serif;
+  font-size: calc(1.7rem + 3.3vw);
+  color: #eee;
+}

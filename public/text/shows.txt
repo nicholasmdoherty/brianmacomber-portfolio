@@ -1,0 +1,44 @@
+# Any line with a # in front will be ignored.
+# All data about upcoming shows should live here, this will be parsed into React
+# and used to display the show dates on Folie's website.
+#
+# This format should be used for adding data about shows.
+# You can put as many names in the lineup as possible, with a new line for each.
+#
+# The '-' and '---' separators are important.
+# '-' indicates a lineup after a show's info
+# '---' indicates new show data.
+#
+# ---
+# TITLE
+# LOCATION
+# DATE
+# TIME
+# LINK TO TICKETS (if no link to buy tickets, leave an empty line)
+# -
+# NAME 1
+# NAME 2
+# NAME 3
+---
+RORA FESTIVAL
+ANIME EXPO
+JULY 17 2019
+9:00PM - 1:00AM
+http://www.example.com
+$15
+-
+Folie
+Gupi
+Brackets
+---
+CONCERT 2
+WEBSTER HALL
+JULY 27 2019
+10:00PM - 1:00AM
+http://www.example.com
+$15
+-
+Crywolf
+Eden
+Illenium
+# End with this line. Do not put a --- separator ar the end
